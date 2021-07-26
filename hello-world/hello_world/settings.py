@@ -25,12 +25,14 @@ SECRET_KEY = 'y6-ejv-77t^$-cyr-kj+k4x7=3832cpk+*_z552an$3^q36b+*'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [] 
 
 
 # Application definition
 
+
 INSTALLED_APPS = [
+    'pages.app.PagesConfig' , #new
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
